@@ -88,7 +88,7 @@
 
 					if (content.length > 30) {
 						alert("최대 30자까지 입력 가능합니다.");
-						$(this).val(content.substring(0, 30));
+						$(this).val(content.substring(0, 50));
 						$('.comSubway > #counter').html(
 								"(30 / 최대 30자)");
 					}

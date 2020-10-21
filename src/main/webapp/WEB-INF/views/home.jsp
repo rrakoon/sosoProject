@@ -167,19 +167,19 @@
             <div id="carouselSlide2" class="carousel slide" data-ride="carousel">
                <div class="carousel-inner" role="listbox">
                   <ul class="item active col-xs-6 col-sm-3">
-                     <li><a href="/shop/view?n=178"><img
+                     <li><a href="/shop/view?n=156"><img
                            src="/resources/images/main/hall/hall1.jpg" alt="웨딩홀1"></a>
                         <p>그랜드 오스티엄</p>
                         <h4>가격: 4,000,000 원</h4></li>
-                     <li><a href="/shop/view?n=177"><img
+                     <li><a href="/shop/view?n=154"><img
                            src="/resources/images/main/hall/hall2.jpg" alt="웨딩홀2"></a>
                         <p>그랜드웨딩의전당</p>
                         <h4>가격: 2,600,000원</h4></li>
-                     <li><a href="/shop/view?n=176"><img
+                     <li><a href="/shop/view?n=152"><img
                            src="/resources/images/main/hall/hall3.jpg" alt="웨딩홀3"></a>
                         <p>빌라드마리</p>
                         <h4>가격: 3,500,000</h4></li>
-                     <li><a href="/shop/view?n=155"><img
+                     <li><a href="/shop/view?n=141"><img
                            src="/resources/images/main/hall/hall4.jpg" alt="웨딩홀4"></a>
                         <p>메모리스클래식 신림</p>
                         <h4>가격: 2,000,000원</h4></li>

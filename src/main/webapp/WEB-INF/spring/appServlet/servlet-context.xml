@@ -26,12 +26,12 @@
    <!-- 업로드 패스 설정 -->   
    <beans:bean class="java.lang.String" id="uploadPath">
    
-      <beans:constructor-arg value="C:/JAVA_Lecture/workspace/_newlecture_jsp/.metadata/.plugins/org.eclipse.wst.server.core/tmp2/wtpwebapps/마무리/resources" />
+      <beans:constructor-arg value="C:/__Programing/_newlecture_jsp/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/sosoProject/resources" />
    </beans:bean>
       <!-- 업로드 패스 설정 -->   
    <beans:bean class="java.lang.String" id="uploadPath2">
    
-      <beans:constructor-arg value="C:/JAVA_Lecture/workspace/_newlecture_jsp/.metadata/.plugins/org.eclipse.wst.server.core/tmp2/wtpwebapps/마무리/resources" />
+      <beans:constructor-arg value="C:/__Programing/_newlecture_jsp/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/sosoProject/resources" />
    </beans:bean>
    <!-- 일반 파일 업로드 경로 -->
    <resources mapping="/imgUpload/**" location="/resources/imgUpload/" />

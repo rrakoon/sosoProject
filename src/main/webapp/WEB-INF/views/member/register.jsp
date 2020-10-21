@@ -53,7 +53,7 @@ var birthJ = false;
             
             if (data == 1) {
                   // 1 : 아이디가 중복되는 문구
-                  $("#id_check").text("사용중인 아이디입니다 :p");
+                  $("#id_check").text("사용중인 아이디입니다");
                   $("#id_check").css("color", "red");
                   $("#usercheck").attr("disabled", true);
                } else {

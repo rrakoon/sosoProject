@@ -731,8 +731,8 @@ padding:0px 0px 0px 3px;
             </h5>
          </div>
          <div class="sign-input">
-         <input type="email" class="ia" id="email" name="email" required="required" />
-                                <div class="eheck_font" id="email_check"></div>
+         <input type="email" class="ia" id="email" name="email" required="required" value ="${member.email}"/>
+                                <div class="eheck_font" id="email_check" ></div>
             
          </div>
          <hr class="hr2">
@@ -744,7 +744,7 @@ padding:0px 0px 0px 3px;
          </div>
          <div class="sign-input">
             <input class="ib" name="oaddress" id="oaddress" type="text"
-               readonly="readonly" />&nbsp;-&nbsp;
+               readonly="readonly" value="${member.oaddress}" />&nbsp;&nbsp;
             <button type="button" class="btn c-button"
                onclick="execPostCode();">
                <i class="fa fa-search"></i> 우편번호
@@ -752,12 +752,12 @@ padding:0px 0px 0px 3px;
 
 
             <div>
-               <input class="ia" style="margin-top: 10px; width: 300px;"
-                  name="address" id="address" type="text" readonly="readonly">기본주소(도로명주소)
+               <input class="ia" value="${member.address}" style="margin-top: 10px; width: 300px;"
+                  name="address" id="address" type="text" readonly="readonly" >기본주소(도로명주소)
             </div>
 
             <div>
-               <input class="ia" name="detailaddress"
+               <input class="ia" name="detailaddress" value="${member.detailaddress}"
                   style="margin-top: 10px; width: 300px;" id="detailaddress"
                   type="text">상세주소
             </div>
@@ -771,7 +771,7 @@ padding:0px 0px 0px 3px;
             </h5>
          </div>
          <div class="sign-input">
-            <input type="tel" class="ib2" id="phone" name="phone">
+            <input type="tel" class="ib2" id="phone" name="phone" value="${member.phone }">
             <div class="eheck_font" id="phone_check"></div>
          </div>
          <hr class="hr2">
